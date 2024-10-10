@@ -12,6 +12,7 @@ const App = () => {
   const [playStatus, setPlayStatus] = useState(false);
   return (
     <div>
+      
       <Background  playStatus={playStatus} heroCount = {heroCount} />
       {/* as a props passs kiya playStatus aur heroCount ko */}
       <Navbar />
